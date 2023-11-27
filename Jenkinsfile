@@ -5,8 +5,8 @@ pipeline{
     agent any
     //agent { label 'Demo' }
     tools { 
-      maven 'MAVEN_HOME'
-      jdk 'JAVA_HOME' 
+      mvn 'MAVEN_HOME'
+      java 'JAVA_HOME' 
     }
 
     parameters{
